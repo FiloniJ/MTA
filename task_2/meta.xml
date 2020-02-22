@@ -1,0 +1,13 @@
+<meta>
+	<info  type="script" name="Next RP" version="1"/>
+		<include resource='dx' />
+		<script src='client.lua' type="client" cache='false'/>
+		<script src='server.lua' type="server" cache='false'/>
+
+		<file src='Icons/add.png' />
+		<file src='Icons/delete.png' />
+		<file src='Icons/edit.png' />
+		<file src='Icons/search.png' />
+	<oop>true</oop>
+	<min_mta_version client="1.5.0" server="1.5.0" />
+</meta>
