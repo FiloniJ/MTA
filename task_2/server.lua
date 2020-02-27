@@ -1,4 +1,4 @@
-	db = dbConnect( "sqlite", "accounts.db" )
+	db = dbConnect( "mysql", "dbname=acc;host=localhost;charset=utf8", "root", "")
 
 	addEvent('addAccount',true)
 	addEventHandler('addAccount',root,function(fname,lname,address)
