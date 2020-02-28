@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- База данных: `acc`
 --
+CREATE DATABASE `acc` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `acc`;
 
 -- --------------------------------------------------------
 
